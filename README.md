@@ -21,6 +21,7 @@ sudo sysctl -p
 Verify.
 sudo sysctl -a | grep pcc
 
+Compile PCC Latency Without errors, it did not work
 
 
 Скомпилированный мною "Без Ошибок" на Devuan 4(Debian 11) TCP congestion control PCC который работает на основе Потерь(Loss).
@@ -42,3 +43,5 @@ net.ipv4.tcp_congestion_control = pcc
 sudo sysctl -p
 Проверить.
 sudo sysctl -a | grep pcc
+
+Скомпилировать PCC Latency Без ошибок Не получилось.
