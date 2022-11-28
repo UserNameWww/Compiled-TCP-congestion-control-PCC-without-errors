@@ -7,6 +7,8 @@ https://github.com/KaiwenZha/PCC-Vivace
 Maybe someone will come in handy.
 
 Installation.
+Only Debian.
+If you want to use it on other "Distributions", you will have to compile it yourself.
 Download tcp_pcc.ko or archive with it.
 Unpack.
 sudo cp tcp_pcc.ko /lib/modules/$(uname -r)/kernel/net/ipv4
@@ -30,6 +32,8 @@ https://github.com/KaiwenZha/PCC-Vivace
 Может кому-то пригодится.
 
 Установка.
+Только для Debian.
+Если хотите использовать на других "Дистрибутивах", то прийдется компилировать самостоятельно.
 Скачать tcp_pcc.ko или архив с ним.
 Распаковать.
 sudo cp tcp_pcc.ko /lib/modules/$(uname -r)/kernel/net/ipv4
